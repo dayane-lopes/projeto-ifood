@@ -1,0 +1,27 @@
+/* Até 768px (celulares e tablets) */
+@media (max-width: 768px) {
+    .conteudo {
+        font-size: 3rem;
+        top: 15%; /* desce um pouco o texto */
+    }
+
+    .item .food {
+        width: 250px;
+    }
+
+    .item .fundo {
+        width: 100%;
+    }
+
+    #voltar, #proxima {
+        top: auto;
+        bottom: 20px;
+        transform: none;
+        width: 40px; /* menor no celular */
+    }
+
+    footer {
+        font-size: 12px;
+        padding: 8px;
+    }
+}
